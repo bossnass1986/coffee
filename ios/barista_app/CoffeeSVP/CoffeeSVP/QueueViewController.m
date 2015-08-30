@@ -443,8 +443,8 @@
 {
     //ding if we have new ones
     int oldCount = [self.queueTotal.text intValue];
-    if([[ConnectionManager shareInstance].orderQueue count] >= 10) [self.queueTotal setText:[NSString stringWithFormat:@"%u", [[ConnectionManager shareInstance].orderQueue count]]];
-    else [self.queueTotal setText:[NSString stringWithFormat:@"0%u", [[ConnectionManager shareInstance].orderQueue count]]];
+    if([[ConnectionManager shareInstance].orderQueue count] >= 10) [self.queueTotal setText:[NSString stringWithFormat:@"%lu", (unsigned long)[[ConnectionManager shareInstance].orderQueue count]]];
+    else [self.queueTotal setText:[NSString stringWithFormat:@"0%lu", (unsigned long)[[ConnectionManager shareInstance].orderQueue count]]];
     
     if([self.queueTotal.text intValue] > oldCount) [self.soundEffect newOrderSound];
     

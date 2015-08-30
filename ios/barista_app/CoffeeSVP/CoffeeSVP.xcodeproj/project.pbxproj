@@ -69,6 +69,8 @@
 		01F4559816A9B51D00DF294B /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F4559716A9B51D00DF294B /* Order.m */; };
 		01F455A816A9C73100DF294B /* UpcomingOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F455A716A9C73100DF294B /* UpcomingOrderCell.m */; };
 		01F455AC16A9EC7800DF294B /* BaristaStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F455AB16A9EC7800DF294B /* BaristaStatusViewController.m */; };
+		8E78BACF1B92928D00412F48 /* RCSwitchOnOff.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E78BACE1B92928D00412F48 /* RCSwitchOnOff.m */; settings = {ASSET_TAGS = (); }; };
+		8E78BAD31B9292CB00412F48 /* SoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E78BAD21B9292CB00412F48 /* SoundEffect.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -150,6 +152,10 @@
 		01F455A716A9C73100DF294B /* UpcomingOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpcomingOrderCell.m; path = Cells/UpcomingOrderCell.m; sourceTree = "<group>"; };
 		01F455AA16A9EC7700DF294B /* BaristaStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaristaStatusViewController.h; sourceTree = "<group>"; };
 		01F455AB16A9EC7800DF294B /* BaristaStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaristaStatusViewController.m; sourceTree = "<group>"; };
+		8E78BACD1B92928D00412F48 /* RCSwitchOnOff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCSwitchOnOff.h; path = ../../../../../../../Downloads/RCSwitch/Classes/RCSwitchOnOff.h; sourceTree = "<group>"; };
+		8E78BACE1B92928D00412F48 /* RCSwitchOnOff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCSwitchOnOff.m; path = ../../../../../../../Downloads/RCSwitch/Classes/RCSwitchOnOff.m; sourceTree = "<group>"; };
+		8E78BAD11B9292CB00412F48 /* SoundEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundEffect.h; path = ../../../../../../../Downloads/GLPaint/Classes/SoundEffect.h; sourceTree = "<group>"; };
+		8E78BAD21B9292CB00412F48 /* SoundEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundEffect.m; path = ../../../../../../../Downloads/GLPaint/Classes/SoundEffect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +249,7 @@
 		01BF39E4169E247A005CCD87 /* CoffeeSVP */ = {
 			isa = PBXGroup;
 			children = (
+				8E78BAD01B9292B700412F48 /* Classes */,
 				01BF39ED169E247A005CCD87 /* AppDelegate.h */,
 				01BF39EE169E247A005CCD87 /* AppDelegate.m */,
 				016ECC7F16A1E1CB003CFD53 /* ToggleView.h */,
@@ -298,6 +305,17 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
+		8E78BAD01B9292B700412F48 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E78BACD1B92928D00412F48 /* RCSwitchOnOff.h */,
+				8E78BACE1B92928D00412F48 /* RCSwitchOnOff.m */,
+				8E78BAD11B9292CB00412F48 /* SoundEffect.h */,
+				8E78BAD21B9292CB00412F48 /* SoundEffect.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -324,7 +342,7 @@
 		01BF39D1169E247A005CCD87 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = bmaci;
 			};
 			buildConfigurationList = 01BF39D4169E247A005CCD87 /* Build configuration list for PBXProject "CoffeeSVP" */;
@@ -416,7 +434,9 @@
 				0105147516A8A82C002DCE1B /* ConnectionManager.m in Sources */,
 				0105147816A8B244002DCE1B /* JSONKit.m in Sources */,
 				01F4559816A9B51D00DF294B /* Order.m in Sources */,
+				8E78BACF1B92928D00412F48 /* RCSwitchOnOff.m in Sources */,
 				01F455A816A9C73100DF294B /* UpcomingOrderCell.m in Sources */,
+				8E78BAD31B9292CB00412F48 /* SoundEffect.m in Sources */,
 				01F455AC16A9EC7800DF294B /* BaristaStatusViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +474,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -466,6 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -500,6 +522,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoffeeSVP/CoffeeSVP-Prefix.pch";
 				INFOPLIST_FILE = "CoffeeSVP/CoffeeSVP-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lbi.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -511,6 +534,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoffeeSVP/CoffeeSVP-Prefix.pch";
 				INFOPLIST_FILE = "CoffeeSVP/CoffeeSVP-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lbi.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -12,7 +12,7 @@
 #import "MenuDrinkItem.h"
 #import "OpenOrder.h"
 
-#define dataServiceBase @"http://172.26.144.34:3002"
+#define dataServiceBase @"http://localhost:3000"
 
 #define queueUrl @"queue"
 #define ordersUrl @"orders"

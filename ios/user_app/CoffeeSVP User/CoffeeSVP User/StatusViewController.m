@@ -100,7 +100,8 @@
 
 //Table View functions
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    int orderCount = [[ConnectionManager shareInstance].openOrderDetails count];
+    NSUInteger orderCount = [[ConnectionManager shareInstance].openOrderDetails count];
+//    int orderCount = [[ConnectionManager shareInstance].openOrderDetails count];
     return orderCount;
 }
 

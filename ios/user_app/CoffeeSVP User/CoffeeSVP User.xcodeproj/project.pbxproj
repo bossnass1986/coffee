@@ -46,8 +46,6 @@
 		012AB04F16BDD6470007B456 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 012AB04E16BDD6470007B456 /* Default.png */; };
 		012AB05116BDD6520007B456 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 012AB05016BDD6520007B456 /* Default@2x.png */; };
 		012AB05316BDD65B0007B456 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 012AB05216BDD65B0007B456 /* Default-568h@2x.png */; };
-		012AB05616BDD6BA0007B456 /* icon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 012AB05416BDD6BA0007B456 /* icon_retina.png */; };
-		012AB05716BDD6BA0007B456 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 012AB05516BDD6BA0007B456 /* icon.png */; };
 		012AB05916BDD6C90007B456 /* icon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 012AB05816BDD6C90007B456 /* icon_retina.png */; };
 		012AB05B16BDD6D10007B456 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 012AB05A16BDD6D10007B456 /* icon.png */; };
 		012AB06216BDD6F50007B456 /* AppUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 012AB05D16BDD6F40007B456 /* AppUtilities.m */; };
@@ -60,7 +58,6 @@
 		012AB07116BDE0220007B456 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 012AB07016BDE0220007B456 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		012AB07416BDE0640007B456 /* GalleryPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 012AB07316BDE0640007B456 /* GalleryPhoto.m */; };
 		012AB07616BDE0F20007B456 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012AB07516BDE0F20007B456 /* ImageIO.framework */; };
-		012AB07816BDE10C0007B456 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 012AB07716BDE10C0007B456 /* SDWebImage.framework */; };
 		012AB07B16BDEF160007B456 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 012AB07A16BDEF150007B456 /* Menu.m */; };
 		01756C2816B89852007CB6A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01756C2716B89852007CB6A4 /* UIKit.framework */; };
 		01756C2A16B89852007CB6A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01756C2916B89852007CB6A4 /* Foundation.framework */; };
@@ -71,6 +68,7 @@
 		01756C4116B89852007CB6A4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01756C3F16B89852007CB6A4 /* MainStoryboard.storyboard */; };
 		01756C4416B89852007CB6A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01756C4316B89852007CB6A4 /* ViewController.m */; };
 		01756C5816B89A04007CB6A4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01756C5716B89A04007CB6A4 /* MainViewController.m */; };
+		8E78BB681B92A04D00412F48 /* SDWebImage-3.3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E78BB671B92A04D00412F48 /* SDWebImage-3.3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,8 +116,6 @@
 		012AB04E16BDD6470007B456 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		012AB05016BDD6520007B456 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		012AB05216BDD65B0007B456 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		012AB05416BDD6BA0007B456 /* icon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_retina.png; path = images/icon_retina.png; sourceTree = "<group>"; };
-		012AB05516BDD6BA0007B456 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = images/icon.png; sourceTree = "<group>"; };
 		012AB05816BDD6C90007B456 /* icon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_retina.png; sourceTree = "<group>"; };
 		012AB05A16BDD6D10007B456 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		012AB05C16BDD6F40007B456 /* AppUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtilities.h; sourceTree = "<group>"; };
@@ -138,7 +134,6 @@
 		012AB07216BDE0640007B456 /* GalleryPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GalleryPhoto.h; sourceTree = "<group>"; };
 		012AB07316BDE0640007B456 /* GalleryPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GalleryPhoto.m; sourceTree = "<group>"; };
 		012AB07516BDE0F20007B456 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		012AB07716BDE10C0007B456 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../../_ios/SDWebImage-master/SDWebImage.framework"; sourceTree = "<group>"; };
 		012AB07916BDEF150007B456 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
 		012AB07A16BDEF150007B456 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
 		01756C2316B89852007CB6A4 /* CoffeeSVP User.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoffeeSVP User.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +151,7 @@
 		01756C4316B89852007CB6A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		01756C5616B89A04007CB6A4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		01756C5716B89A04007CB6A4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8E78BB671B92A04D00412F48 /* SDWebImage-3.3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SDWebImage-3.3.framework"; path = "../../../../../../Downloads/SDWebImage-3.3.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012AB07816BDE10C0007B456 /* SDWebImage.framework in Frameworks */,
+				8E78BB681B92A04D00412F48 /* SDWebImage-3.3.framework in Frameworks */,
 				012AB07616BDE0F20007B456 /* ImageIO.framework in Frameworks */,
 				01756C2816B89852007CB6A4 /* UIKit.framework in Frameworks */,
 				01756C2A16B89852007CB6A4 /* Foundation.framework in Frameworks */,
@@ -180,8 +176,6 @@
 				012AB06A16BDD8E10007B456 /* tab_divider.png */,
 				012AB06B16BDD8E10007B456 /* tab_divider@2x.png */,
 				012AB06816BDD7D80007B456 /* tab_bg@2x.png */,
-				012AB05416BDD6BA0007B456 /* icon_retina.png */,
-				012AB05516BDD6BA0007B456 /* icon.png */,
 				012AB00916BDCB1B0007B456 /* bg_internal@2x.png */,
 				012AB00A16BDCB1B0007B456 /* btn_gallery_off@2x.png */,
 				012AB00B16BDCB1B0007B456 /* btn_gallery_on@2x.png */,
@@ -229,7 +223,6 @@
 		01756C1816B89852007CB6A4 = {
 			isa = PBXGroup;
 			children = (
-				012AB07716BDE10C0007B456 /* SDWebImage.framework */,
 				012AB07516BDE0F20007B456 /* ImageIO.framework */,
 				012AB05A16BDD6D10007B456 /* icon.png */,
 				012AB05816BDD6C90007B456 /* icon_retina.png */,
@@ -253,6 +246,7 @@
 		01756C2616B89852007CB6A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E78BB671B92A04D00412F48 /* SDWebImage-3.3.framework */,
 				01756C2716B89852007CB6A4 /* UIKit.framework */,
 				01756C2916B89852007CB6A4 /* Foundation.framework */,
 				01756C2B16B89852007CB6A4 /* CoreGraphics.framework */,
@@ -336,7 +330,7 @@
 		01756C1A16B89852007CB6A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = bmaci;
 			};
 			buildConfigurationList = 01756C1D16B89852007CB6A4 /* Build configuration list for PBXProject "CoffeeSVP User" */;
@@ -397,8 +391,6 @@
 				012AB04F16BDD6470007B456 /* Default.png in Resources */,
 				012AB05116BDD6520007B456 /* Default@2x.png in Resources */,
 				012AB05316BDD65B0007B456 /* Default-568h@2x.png in Resources */,
-				012AB05616BDD6BA0007B456 /* icon_retina.png in Resources */,
-				012AB05716BDD6BA0007B456 /* icon.png in Resources */,
 				012AB05916BDD6C90007B456 /* icon_retina.png in Resources */,
 				012AB05B16BDD6D10007B456 /* icon.png in Resources */,
 				012AB06916BDD7D80007B456 /* tab_bg@2x.png in Resources */,
@@ -466,6 +458,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -478,6 +471,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -507,14 +501,16 @@
 		01756C4816B89852007CB6A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../_ios/SDWebImage-master\"",
-				);
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoffeeSVP User/CoffeeSVP User-Prefix.pch";
 				INFOPLIST_FILE = "CoffeeSVP User/CoffeeSVP User-Info.plist";
+				MACH_O_TYPE = mh_dylib;
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lbi.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -524,14 +520,16 @@
 		01756C4916B89852007CB6A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../_ios/SDWebImage-master\"",
-				);
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoffeeSVP User/CoffeeSVP User-Prefix.pch";
 				INFOPLIST_FILE = "CoffeeSVP User/CoffeeSVP User-Info.plist";
+				MACH_O_TYPE = mh_dylib;
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lbi.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

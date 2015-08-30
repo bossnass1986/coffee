@@ -33,7 +33,7 @@
 
 @property BOOL alertHasShown;
 @property (strong, nonatomic) ToggleView *powerButton;
-@property (strong, nonatomic) RCSwitchOnOff *onBreakSwitch;
+//@property (strong, nonatomic) RCSwitchOnOff *onBreakSwitch;
 @property (strong, nonatomic) IBOutlet UILabel *onBreakSwitchLabel;
 
 @end

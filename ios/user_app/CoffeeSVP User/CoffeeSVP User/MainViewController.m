@@ -73,7 +73,7 @@
     //check orderids in prefs
     NSMutableArray *orders = [self retrieveStoredOrders];
     
-    NSLog(@"orders count: %i", [orders count]);
+    NSLog(@"orders count: %lu", (unsigned long)[orders count]);
     
     //cleanse open orders of yesterday drinks
     NSCalendar *cal = [NSCalendar currentCalendar];

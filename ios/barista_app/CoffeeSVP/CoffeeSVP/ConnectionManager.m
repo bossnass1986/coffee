@@ -27,7 +27,8 @@
             sharedSingleton.storeStatus = @"";
             
             sharedSingleton.queueHasLoaded = NO;
-            sharedSingleton.isWritingToService = NO;
+            // PMCG
+//            sharedSingleton.isWritingToService = NO;
         }
         return sharedSingleton;
     }
@@ -124,7 +125,7 @@
         [request setHTTPMethod:@"PUT"];
         [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
         [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-        [request setValue:[NSString stringWithFormat:@"%d", [requestData length]] forHTTPHeaderField:@"Content-Length"];
+        [request setValue:[NSString stringWithFormat:@"%lu", (unsigned long)[requestData length]] forHTTPHeaderField:@"Content-Length"];
         [request setHTTPBody: requestData];
     
         //NSURLConnection *connection = [NSURLConnection connectionWithRequest:request delegate:self];
